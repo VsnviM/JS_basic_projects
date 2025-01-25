@@ -9,6 +9,7 @@ body{
     
 }
 
+/************************************** HOMEPAGE *******************************************/
 .heading{
     padding: 10px;
     text-align: center;
@@ -32,7 +33,7 @@ body{
     box-shadow: 4px 6px 8px;
 }
 
-
+/********************************** NAVIGATION BAR AND ABOUT ***************************************************/
 .navbar{
     display: flex;
     align-items: center;
@@ -73,7 +74,7 @@ body{
     font-size: xx-large;
 }
 
-/************* TO DO LIST *************/
+/****************************************** TO DO LIST ****************************************************/
 .todo{
     border: none;
     margin: 0 20%;
@@ -124,7 +125,7 @@ button:hover{
     box-shadow: 2px 2px 2px;
 }
 
-/*************** QUOTE GENERATOR *****************/
+/****************************************** QUOTE GENERATOR ************************************************/
 
 #generateQuote{
     justify-content: center;
@@ -140,7 +141,7 @@ button:hover{
     padding: 0 8%;
 }
 
-/****************** CALCULATOR ********************/
+/********************************************** CALCULATOR *****************************************************/
 .calc{
     margin-left: 18%;
     background-color:  rgb(136, 136, 116);
@@ -186,4 +187,14 @@ button:hover{
     background-color:rgb(86, 86, 70);
     font-size: x-large;
     font-weight: bold;
+}
+
+/************************************** DIGITAL CLOCK *****************************************/
+#clock{
+    color:rgb(136, 136, 116) ;
+    font-weight: bolder;
+    font-size: xxx-large;
+    padding: 50px;
+    text-align: center;
+    max-width: 900vh;
 }
